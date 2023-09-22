@@ -1,0 +1,49 @@
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: #EBE76C;
+    text-align: center;
+
+}
+
+main {
+    background-color: #836096;
+}
+
+.fibonacci {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.button_fibo {
+    border: 1px solid black;
+}
+
+.container_volume {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.label-container {
+    margin-bottom: 10px;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.button-container {
+    margin-bottom: 10px;
+}
+
+.result-container {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}

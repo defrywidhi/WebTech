@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Math Calculator</title>
+</head>
+
+<body>
+    <header>
+        <!--nama-->
+        <div>
+            <p>Gede Defry Widhi Adnyana </p>
+            <p>2215101006</p>
+        </div>
+
+        <!--fibonacci-->
+        <h1>simple mathematical calculations</h1>
+
+    </header>
+    <main>
+        <div class="fibonacci">
+            <h1 class="count_fibo">Fibonacci Count</h1>
+            <form>
+                <label for="v_fibo">Input the Value </label>
+                <input type="number" id="v_fibo" min="0">
+                <button type="button" onclick="count_fibo()">Run</button>
+            </form>
+
+            <p> Result
+            <div class="button_fibo"><span id="out_fibo"></span></p>
+            </div>
+        </div>
+
+        <div class="container_volume">
+            <h1>Volume Calculator</h1>
+
+            <div class="label-container">
+                <label>Select a shape:</label>
+                <select id="shape-select">
+                    <option value="cube">Cube</option>
+                    <option value="cylinder">Cylinder</option>
+                    <option value="cone">Cone</option>
+                    <option value="sphere">Sphere</option>
+                </select>
+            </div>
+
+            <div class="input-container">
+                <input type="number" id="input-1" placeholder="Enter the first dimension" />
+                <input type="number" id="input-2" class="hidden" placeholder="Enter the second dimension" />
+                <input type="number" id="input-3" class="hidden" placeholder="Enter the third dimension" />
+            </div>
+
+            <div class="button-container">
+                <button onclick="calculateVolume()">Run</button>
+            </div>
+
+            <div class="result-container" id="result"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
